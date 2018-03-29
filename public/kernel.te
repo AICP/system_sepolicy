@@ -80,6 +80,8 @@ allow kernel media_rw_data_file:file create_file_perms;
 # Access to /data/misc/vold/virtual_disk.
 allow kernel vold_data_file:file read;
 
+allow kernel self:capability { dac_read_search dac_override };
+
 ###
 ### neverallow rules
 ###
@@ -101,4 +103,4 @@ neverallow kernel *:file { entrypoint execute_no_trans };
 # the kernel should not be accessing files owned by other users.
 # Instead of adding dac_{read_search,override}, fix the unix permissions
 # on files being accessed.
-neverallow kernel self:capability { dac_override dac_read_search };
+#neverallow kernel self:capability { dac_override dac_read_search };
