@@ -34,3 +34,5 @@ allow postinstall otadexopt_service:service_manager find;
 # should transition to postinstall, as it is only meant to run during the
 # update.
 neverallow { domain -update_engine -recovery } postinstall:process { transition dyntransition };
+allow postinstall otapreopt_chroot:process noatsecure;
+allow postinstall rootfs:dir read;

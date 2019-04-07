@@ -3,3 +3,6 @@ typeattribute postinstall_dexopt coredomain;
 # Run dex2oat/patchoat in its own sandbox.
 # We have to manually transition, as we don't have an entrypoint.
 domain_auto_trans(postinstall_dexopt, postinstall_file, dex2oat)
+
+allow postinstall_dexopt dex2oat:process noatsecure;
+allow postinstall_dexopt vendor_overlay_file:dir search;

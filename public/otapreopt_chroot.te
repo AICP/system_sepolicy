@@ -18,3 +18,7 @@ dontaudit otapreopt_chroot kernel:process setsched;
 allow otapreopt_chroot postinstall:fd use;
 allow otapreopt_chroot update_engine:fd use;
 allow otapreopt_chroot update_engine:fifo_file write;
+allow otapreopt_chroot postinstall_dexopt:process noatsecure;
+allow otapreopt_chroot postinstall_file:lnk_file read;
+allow otapreopt_chroot system_file:dir mounton;
+
