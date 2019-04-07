@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fce09a9c_a4dd47b3",
+        "filename": "public/otapreopt_chroot.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2019-04-07T20:13:28Z",
+      "side": 1,
+      "message": "http://haste.aicp-rom.com/acowekuxeb.avrasm",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 47
+      },
+      "revId": "7305a518c741a0645369d03efbc1342e421a3f40",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
