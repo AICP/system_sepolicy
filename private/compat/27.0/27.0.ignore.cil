@@ -143,6 +143,7 @@
     statsdw
     statsdw_socket
     storaged_data_file
+    sudaemon
     super_block_device
     staging_data_file
     system_boot_reason_prop
