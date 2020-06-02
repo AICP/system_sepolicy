@@ -11,11 +11,13 @@ camera.disable_zsl_mode u:object_r:exported3_default_prop:s0 exact bool
 camera.fifo.disable u:object_r:exported3_default_prop:s0 exact int
 dalvik.vm.appimageformat u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.backgroundgctype u:object_r:exported_dalvik_prop:s0 exact string
+dalvik.vm.boot-dex2oat-cpu-set u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.boot-dex2oat-threads u:object_r:exported_dalvik_prop:s0 exact int
 dalvik.vm.boot-image u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.checkjni u:object_r:exported_dalvik_prop:s0 exact bool
 dalvik.vm.dex2oat-Xms u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.dex2oat-Xmx u:object_r:exported_dalvik_prop:s0 exact string
+dalvik.vm.dex2oat-cpu-set u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.dex2oat-filter u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.dex2oat-flags u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.dex2oat-threads u:object_r:exported_dalvik_prop:s0 exact int
@@ -33,6 +35,7 @@ dalvik.vm.heaptargetutilization u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.hot-startup-method-samples u:object_r:exported_dalvik_prop:s0 exact int
 dalvik.vm.image-dex2oat-Xms u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.image-dex2oat-Xmx u:object_r:exported_dalvik_prop:s0 exact string
+dalvik.vm.image-dex2oat-cpu-set u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.image-dex2oat-filter u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.image-dex2oat-flags u:object_r:exported_dalvik_prop:s0 exact string
 dalvik.vm.image-dex2oat-threads u:object_r:exported_dalvik_prop:s0 exact int
@@ -105,11 +108,17 @@ ro.camera.notify_nfc u:object_r:exported3_default_prop:s0 exact int
 ro.camera.enableLazyHal u:object_r:exported3_default_prop:s0 exact bool
 ro.com.android.dataroaming u:object_r:exported3_default_prop:s0 exact bool
 ro.com.android.prov_mobiledata u:object_r:exported3_default_prop:s0 exact bool
+ro.config.alarm_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.alarm_vol_steps u:object_r:exported2_config_prop:s0 exact int
 ro.config.alarm_alert u:object_r:exported2_config_prop:s0 exact string
+ro.config.media_vol_default u:object_r:exported2_config_prop:s0 exact int
 ro.config.media_vol_steps u:object_r:exported2_config_prop:s0 exact int
 ro.config.notification_sound u:object_r:exported2_config_prop:s0 exact string
 ro.config.per_app_memcg u:object_r:exported3_default_prop:s0 exact bool
 ro.config.ringtone u:object_r:exported2_config_prop:s0 exact string
+ro.config.system_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.system_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.vc_call_vol_default u:object_r:exported2_config_prop:s0 exact int
 ro.control_privapp_permissions u:object_r:exported3_default_prop:s0 exact string
 ro.cp_system_other_odex u:object_r:exported3_default_prop:s0 exact int
 ro.crypto.allow_encrypt_override u:object_r:exported2_vold_prop:s0 exact bool
@@ -410,3 +419,4 @@ ro.surface_flinger.set_display_power_timer_ms u:object_r:exported_default_prop:s
 ro.surface_flinger.support_kernel_idle_timer u:object_r:exported_default_prop:s0 exact bool
 ro.surface_flinger.use_smart_90_for_video u:object_r:exported_default_prop:s0 exact bool
 ro.surface_flinger.color_space_agnostic_dataspace u:object_r:exported_default_prop:s0 exact int
+ro.surface_flinger.refresh_rate_switching u:object_r:exported_default_prop:s0 exact bool
