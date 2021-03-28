@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e774475_e264037c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2021-03-28T02:46:11Z",
+      "side": 1,
+      "message": "Something the cool kids(and the guys) are running nowadays\n\nRef: https://android-review.googlesource.com/c/platform/system/sepolicy/+/1552085",
+      "revId": "c24f2b554be22e32ea69e7f7296e36f3afbd8ca2",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
