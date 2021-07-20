@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "790db4d6_a8602d24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2021-07-20T19:53:10Z",
+      "side": 1,
+      "message": "not sure, if we need this - we don\u0027t build user",
+      "revId": "808600b840618ec95621fb310bb87b8697c4897f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
