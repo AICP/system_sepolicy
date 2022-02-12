@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39d355f8_6881735f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-02-12T17:32:35Z",
+      "side": 1,
+      "message": "removes the warning at the very beginning of the build.",
+      "revId": "ba1f6e281780f2981f3ff48fa0fa06a5754208f2",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
