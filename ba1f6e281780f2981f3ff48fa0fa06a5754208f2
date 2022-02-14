@@ -16,6 +16,23 @@
       "message": "removes the warning at the very beginning of the build.",
       "revId": "ba1f6e281780f2981f3ff48fa0fa06a5754208f2",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10b5223d_92383bec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-02-14T15:35:24Z",
+      "side": 1,
+      "message": "Probably breaks the build if the policy directories are not included, lets maintain some compatibility for this cycle",
+      "revId": "ba1f6e281780f2981f3ff48fa0fa06a5754208f2",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
