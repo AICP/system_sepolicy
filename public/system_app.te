@@ -5,3 +5,7 @@
 ###
 
 type system_app, domain;
+
+# Battery Health Info
+allow system_app sysfs_batteryinfo:dir { search };
+allow system_app sysfs_batteryinfo:file { getattr open read };
