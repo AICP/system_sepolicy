@@ -149,6 +149,9 @@ get_prop(gmscore_app, virtual_ab_prop)
 # b/186488185: Allow GMSCore to read dck properties
 get_prop(gmscore_app, dck_prop)
 
+# Required to set spoofing properties for native PIHooks.
+set_prop(gmscore_app, system_prop)
+
 # Do not allow getting permission-protected network information from sysfs.
 neverallow gmscore_app sysfs_net:file *;
 
