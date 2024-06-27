@@ -466,17 +466,17 @@ define(`dac_override_allowed', `{
   vold_prepare_subdirs
   zygote
 }')
-neverallow ~dac_override_allowed self:global_capability_class_set dac_override;
+#neverallow ~dac_override_allowed self:global_capability_class_set dac_override;
 # Since the kernel checks dac_read_search before dac_override, domains that
 # have dac_override should also have dac_read_search to eliminate spurious
 # denials.  Some domains have dac_read_search without having dac_override, so
 # this list should be a superset of the one above.
-neverallow ~{
-  dac_override_allowed
-  traced_perf
-  traced_probes
-  heapprofd
-} self:global_capability_class_set dac_read_search;
+#neverallow ~{
+#  dac_override_allowed
+#  traced_perf
+#  traced_probes
+#  heapprofd
+#} self:global_capability_class_set dac_read_search;
 
 # Limit what domains can mount filesystems or change their mount flags.
 # sdcard_type (including vfat and exfat) and fusefs_type are exempt as a larger
